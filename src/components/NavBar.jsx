@@ -1,11 +1,12 @@
 import React from 'react';
-import { image } from '../assets/images/AdityaLawate.png';
+import  AdityaLawate from '../assets/images/AdityaLawate.png'
 
-const NavBar = () => {
+var NavBar = () => {
+    // const AdityaLawate = '../assets/images/AdityaLawate.png'
     return (
         <div>
             Navbar
-            <img src={image}></img>
+            <img src={AdityaLawate}></img>
         </div>
     );
 };
