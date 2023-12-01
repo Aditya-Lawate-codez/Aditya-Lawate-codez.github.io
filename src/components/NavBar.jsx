@@ -1,5 +1,5 @@
 import React from 'react';
-import { image } from '../assets/Aditya-Lawate.jpeg';
+import { image } from '../assets/images/AdityaLawate.png';
 
 const NavBar = () => {
     return (
