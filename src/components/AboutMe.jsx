@@ -1,15 +1,14 @@
 import React from 'react';
 
-const Github = () => {
+
+const AboutMe = () => {
     return (
         <div>
-            Github            
+            
         </div>
     );
 };
 
 
 
-
-
-export default Github;
+export default AboutMe;

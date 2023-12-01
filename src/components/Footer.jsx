@@ -1,9 +1,10 @@
 import React from 'react';
 
-const Github = () => {
+
+const Footer = () => {
     return (
         <div>
-            Github            
+            
         </div>
     );
 };
@@ -11,5 +12,4 @@ const Github = () => {
 
 
 
-
-export default Github;
+export default Footer;
