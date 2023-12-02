@@ -4,7 +4,7 @@ import React from 'react';
 const AboutMe = () => {
     return (
         <div>
-            
+            About
         </div>
     );
 };
