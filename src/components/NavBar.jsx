@@ -6,7 +6,7 @@ const NavBar = () => {
         <div>
             Navbar
             {/* Image */}
-            <img src={IMAGES.image1} />
+            <img src={IMAGES.image1} className='image'/>
         </div>
     );
 };

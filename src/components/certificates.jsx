@@ -1,9 +1,10 @@
 import React from 'react';
-// import '../assets/certificates/'
+import CERTIS from '../assets/certificates/certis'
 const Certificates = () => {
     return (
-        <div>
-        
+        <div>{
+            console.log(typeof(CERTIS))
+        }
         </div>
     );
 }
