@@ -1,10 +1,12 @@
 import React from 'react';
-import Image from './'
+import IMAGES from '../assets/images/images';
+import "./Navbar.css"
 const NavBar = () => {
-    // const AdityaLawate = '../assets/images/AdityaLawate.png'
     return (
         <div>
             Navbar
+            {/* Image */}
+            <img src={IMAGES.image1} />
         </div>
     );
 };
