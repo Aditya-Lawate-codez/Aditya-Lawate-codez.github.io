@@ -19,7 +19,7 @@ const generateCertisFile = () => {
 generateCertisFile();
 console.log('Certis.jsx file has been generated successfully.');
 /**
- * RUn script:
+ * run script:
  * node --experimental-specifier-resolution=node --experimental-json-modules generateCertisFile.mjs
  * 
  */
