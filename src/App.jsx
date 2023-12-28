@@ -9,11 +9,20 @@ function App() {
 
   return (
     <>
-      <NavBar />
+      {/* < NavBar />
       <Github />
       <AboutMe/>
       <Footer/>
-      <Certificates/>
+      <Certificates/> */}
+      <NavBar />
+      <Router>
+        <Routes>
+          <Route element={<Github />} path='/Github' />
+          <Route element={<AboutMe />} path='/Aboutme' />
+          <Route element={<Certificates />} path='/Certis' />
+          <Route element={<AboutMe />} path='/Aboutme' />
+        </Routes>
+      </Router>
     </>
   )
 }

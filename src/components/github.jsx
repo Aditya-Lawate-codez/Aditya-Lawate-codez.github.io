@@ -3,7 +3,7 @@ import React from 'react';
 const Github = () => {
     return (
         <div>
-            Github            
+            <iframe src='https://www.github.com/Aditya-lawate-codez' />
         </div>
     );
 };
